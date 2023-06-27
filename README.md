@@ -61,6 +61,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-onboarding](modules/onboarding)
 - [react-native-navigation-tabs](modules/navigation-tabs)
 - [react-native-contact-us](modules/contact-us)
+- [react-native-user-profile](modules/user-profile)
 
 # Getting started: Frontend
 

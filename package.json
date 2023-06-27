@@ -17,6 +17,7 @@
     "@modules/contact-us": "file:./modules/contact-us/",
     "@modules/navigation-tabs": "file:./modules/navigation-tabs/",
     "@modules/onboarding": "file:./modules/onboarding/",
+    "@modules/user-profile": "file:./modules/user-profile/",
     "@react-native-masked-view/masked-view": "^0.2.9",
     "@react-navigation/bottom-tabs": "6.3.2",
     "@react-navigation/native": "^6.1.6",
