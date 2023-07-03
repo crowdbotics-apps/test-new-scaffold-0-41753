@@ -1,9 +1,10 @@
+// @ts-ignore
 import { getGlobalOptions } from "@options";
 const global = getGlobalOptions();
 const BASE_URL = global.url;
-export const saveSignature = async data => {
+export const getQr = async data => {
   try {
-    const response = await fetch(`${BASE_URL}/modules/signature/upload_signature/`, {
+    const response = await fetch(`${BASE_URL}/modules/qr-code/qrcode/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -12,6 +13,7 @@ export const saveSignature = async data => {
     });
     return response;
   } catch (error) {
+    console.log("ERROR: ", error);
     throw new Error("NETWORK_ERROR").message;
   }
 };

@@ -4,7 +4,7 @@ import { View, StyleSheet, ActivityIndicator } from "react-native";
 const Loader = () => {
   return <View style={styles.container}>
       <View style={styles.loaderContainer}>
-        <ActivityIndicator color="#000" />
+        <ActivityIndicator color="#000" size={20} />
       </View>
     </View>;
 };
